@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import './navStyle.css'
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Container, Nav } from 'react-bootstrap'
 
 const Navegador = () => {
 
@@ -22,6 +22,7 @@ const Navegador = () => {
                         <Nav.Link href="#link">Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
+                
             </Container>
         </Navbar>
 
