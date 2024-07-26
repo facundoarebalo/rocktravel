@@ -11,18 +11,18 @@ const Navegador = () => {
 
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand className='logo' href="#home">ROCKTRAVEL</Navbar.Brand>
+                <Navbar.Brand className='logo' onClick={() => navigate('/')}>ROCKTRAVEL</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto link-container">
-                        <Nav.Link href="#home">Main</Nav.Link>
-                        <Nav.Link href="#link">Sobre Nosotros</Nav.Link>
-                        <Nav.Link href="#link">Tours</Nav.Link>
-                        <Nav.Link href="#link">Galería</Nav.Link>
-                        <Nav.Link href="#link">Contacto</Nav.Link>
+                        <Nav.Link onClick={() => navigate('/main')}>Main</Nav.Link>
+                        <Nav.Link onClick={() => navigate('/about')}>Sobre Nosotros</Nav.Link>
+                        <Nav.Link onClick={() => navigate('/tours')}>Tours</Nav.Link>
+                        <Nav.Link onClick={() => navigate('/galeria')}>Galería</Nav.Link>
+                        <Nav.Link onClick={() => navigate('/contacto')}>Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                
+
             </Container>
         </Navbar>
 

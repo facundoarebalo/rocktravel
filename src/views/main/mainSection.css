@@ -1,0 +1,81 @@
+.main-section {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.background-image {
+  /* background-image: url("path/to/your/image.jpg"); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.detail-item {
+  max-width: 200px;
+}
+
+.detail-text {
+  margin-bottom: 10px;
+}
+
+.detail-button {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.pagination {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pagination ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.pagination .active {
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
