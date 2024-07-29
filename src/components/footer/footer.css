@@ -1,0 +1,27 @@
+.footer-container {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-containerLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-link {
+    color: white;
+    margin: 0 10px;
+    transition: 0.3s;
+    font-size: 30px;
+  }
+  
+  .footer-link:hover {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 40px #00ffff;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s;
+  }
