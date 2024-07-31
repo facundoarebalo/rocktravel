@@ -38,6 +38,7 @@ const MainSection = () => {
             <Col>
                 <Row className="cards">
                     <Cards />
+                    
                 </Row>
             </Col>
         </Container>
