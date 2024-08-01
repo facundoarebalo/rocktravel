@@ -1,0 +1,23 @@
+.logo {
+  color: white !important;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: #134b70 !important;
+}
+
+.navlink-container {
+    display: flex;
+}
+
+.links {
+  color: white !important;
+  margin-right: 20px;
+}
+
+.links:hover {
+  color: #134b70 !important;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}

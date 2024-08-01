@@ -2,17 +2,7 @@
   position: relative;
   color: white;
   text-align: center;
-}
-
-.background-image {
-  /* background-image: url("path/to/your/image.jpg"); */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  min-height: 100vh;
 }
 
 .content {
@@ -43,6 +33,11 @@
 
 .detail-text {
   margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .detail-button {
@@ -51,27 +46,6 @@
   color: white;
   padding: 10px 20px;
   cursor: pointer;
-}
-
-.pagination {
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.pagination ul {
-  list-style: none;
-  padding: 0;
-}
-
-.pagination li {
-  margin: 10px 0;
-  cursor: pointer;
-}
-
-.pagination .active {
-  font-weight: bold;
 }
 
 .cards {
