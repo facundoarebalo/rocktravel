@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import "./mainSection.css";
 import Cards from "../../components/cards/Cards";
 
-const MainSection = () => {
+const Home = () => {
 
 
   return (
@@ -41,4 +41,4 @@ const MainSection = () => {
   );
 };
 
-export default MainSection;
+export default Home;

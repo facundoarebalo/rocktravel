@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import imagen1 from '../../assets/img/6e.jpg'
 import imagen2 from '../../assets/img/8d.jpg'
 import imagen3 from '../../assets/img/mirador-del-indio.jpg'
-
+import './cardStyle.css'
 const Cards = () => {
     const lugares = [
         {
@@ -28,11 +28,11 @@ const Cards = () => {
     return (
         <>
             {lugares.map((lugar) => (
-                <Card key={lugar.id} style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={lugar.imagen} />
-                    <Card.Body>
-                        <Card.Title>{lugar.nombre}</Card.Title>
-                        <Card.Text>{lugar.descripcion}</Card.Text>
+                <Card className='card' key={lugar.id} style={{ width: '18rem' }}>
+                    <Card.Img className='card-image' variant="top" src={lugar.imagen} />
+                    <Card.Body className='card-body'>
+                        <Card.Title className='card-title'>{lugar.nombre}</Card.Title>
+                        <Card.Text className='card-text'>{lugar.descripcion}</Card.Text>
                     </Card.Body>
 
                 </Card>

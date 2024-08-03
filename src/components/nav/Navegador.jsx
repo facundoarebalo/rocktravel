@@ -4,7 +4,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 
 const Navegador = () => {
 
-    const navigate = useNavigate
+    const navigate = useNavigate()
 
 
     return (
